@@ -11,8 +11,8 @@ This is a sample Test Automation for Android Apps using Robot Framework with App
 5. Install [RobotFramework](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#installing-using-pip).
 6. Download and open this code repository on your local system and run these 2 commands :
    ```
-    pip install -r requirements.txt
-    rfbrowser init
+   pip install -r requirements.txt
+   rfbrowser init
    ```
 7. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/).
 8. Install [Android Studio](https://developer.android.com/studio/install).
