@@ -9,7 +9,7 @@ This is a sample Test Automation for Android Apps using Robot Framework with App
 3. Make sure 'pip' also installed together with Python 3. If it is not automatically installed, refer to [Python Crash Course](https://ehmatthes.github.io/pcc/chapter_12/installing_pip.html).
 4. Update Python to your PATH file. Refer [here](https://realpython.com/add-python-to-path/), this website covered configuration for Windows, Linux, and MacOS.
 5. Install [RobotFramework](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#installing-using-pip).
-6. Download and open this code repository on your local system and run below command :
+6. Download and open this code repository on your local system and run these 2 commands :
    ```
     pip install -r requirements.txt
     rfbrowser init
