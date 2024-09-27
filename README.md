@@ -13,12 +13,26 @@ This is a sample Test Automation for Android Apps using Robot Framework with App
    ```
 5. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/).
 6. Install [Android Studio](https://developer.android.com/studio/install).
-7. Update JAVA_HOME and ANDROID_SDK_ROOT to yout PATH file. There is no easy way for this. You can refer [here](https://medium.com/@omurdenden/set-java-home-and-bin-directory-for-appium-testing-in-macos-f8cee3fe56b4) or Google it.
+7. Update JAVA_HOME and ANDROID_SDK_ROOT to yout PATH file. There is no easy way to explain this. You can refer [here](https://medium.com/@omurdenden/set-java-home-and-bin-directory-for-appium-testing-in-macos-f8cee3fe56b4) or Google it.
 8. Install [Node](https://nodejs.org/en/download/package-manager).
 9. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/).
 10. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependecies are OK.
 11. Download and install [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases).
-12. Recommended Code Editor : [VS Code](https://code.visualstudio.com/), but you're welcome to use any Code Editor you're comfort with.
+12. Install [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/).
+13. Recommended Code Editor : [VS Code](https://code.visualstudio.com/), but you're welcome to use any Code Editor you're comfort with.
+
+## Device Connection
+
+Connect your device to your computer, check it's udid : 
+```
+adb devices
+```
+Put it on file 'env.yaml' line 7 : 
+```
+udid: {your device udid}
+sample : 
+udid: emulator-5554
+```
 
 ## Run Tests
 * Run all tests : 
@@ -61,4 +75,4 @@ This sample Test Automation consists of 3 main folders :
    Contains test cases
    ```
 
-Apart from these 3 folders, this sample also using '.yaml' file to store data.
+Apart from these 3 folders, this sample also using 'env.yaml' file to store configuration-specific data.
