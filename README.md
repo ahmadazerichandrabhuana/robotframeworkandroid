@@ -15,12 +15,12 @@ This is a sample Test Automation for Android Apps using Robot Framework with App
    rfbrowser init
    ```
 7. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/).
-8. Install [Android Studio](https://developer.android.com/studio/install).
-9. Update JAVA_HOME and ANDROID_SDK_ROOT to yout PATH file. There is no easy way to explain this. You can refer [here](https://medium.com/@omurdenden/set-java-home-and-bin-directory-for-appium-testing-in-macos-f8cee3fe56b4) or Google it.
+8. Install [Android Studio](https://developer.android.com/studio/install), and install Android SDK using Android Studio.
+9. Update JAVA_HOME and ANDROID_HOME to yout PATH file. There is no easy way to explain this. You can refer [here](https://medium.com/@omurdenden/set-java-home-and-bin-directory-for-appium-testing-in-macos-f8cee3fe56b4) or Google it.
 10. Install [Node](https://nodejs.org/en/download/package-manager).
 11. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/).
-12. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK.
-13. Install [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/).
+12. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK, trouble shoot if any red "x" appears (you need to google it yourself).
+13. Install [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/), or add ADB installed from Android Studio into your PATH file.
 14. Download and install this [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases) into your Android Device.
 
 ## Device Connection
