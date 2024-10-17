@@ -20,7 +20,7 @@ This is a sample Test Automation for Android Apps using Robot Framework with App
 11. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/).
 12. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK, trouble shoot if any red "x" appears (you need to google it yourself).
 13. Install [ADB](https://www.xda-developers.com/install-adb-windows-macos-linux/), or add ADB installed from Android Studio into your PATH file.
-14. Download and install this [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases) into your Android Device (credit to [Wim Selles](https://github.com/wswebcreation).
+14. Download and install this [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases) into your Android Device (credit to [Wim Selles](https://github.com/wswebcreation)).
 
 ## Device Connection
 
