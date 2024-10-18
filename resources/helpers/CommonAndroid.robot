@@ -47,6 +47,7 @@ Input Text to Element
     [Documentation]     Clear and Input a text to an Input Field
     AppiumLibrary.Wait Until Element Is Visible      ${element}
     AppiumLibrary.Click Element                      ${element}
+    AppiumLibrary.Hide Keyboard
     AppiumLibrary.Clear Text                         ${element}
     AppiumLibrary.Input Text Into Current Element    ${value}
 
