@@ -12,8 +12,6 @@ Log And Capture Error
 Spawn Appium Server
     Start Process   appium
     ...             -p    ${appium.port}
-    ...             -bp   ${appium.bootstrap_port}
-    ...             -U    ${udid}
     ...             -g    logs/appium.log
     Sleep   ${fast_timeout}
 
@@ -21,6 +19,7 @@ Open Android Application
     Open Application    remote_url=${appium.server}
     ...     udid=${udid}
     ...     platformName=Android
+    ...     automationName=uiautomator2
     ...     deviceName=DeviceName
     ...     appPackage=${app_package}
     ...     appActivity=${app_activity}
