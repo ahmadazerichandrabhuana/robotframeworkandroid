@@ -13,6 +13,8 @@ Spawn Appium Server
     Start Process   appium
     ...             -p    ${appium.port}
     ...             -g    logs/appium.log
+    ...             shell=true
+    ...             stdout=NONE
     Sleep   ${fast_timeout}
 
 Open Android Application
