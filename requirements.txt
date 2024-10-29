@@ -1,4 +1,4 @@
-urllib3==1.26.20
+urllib3==2.2.3
 Appium-Python-Client==3.2.1
 selenium==4.16.0
 robotframework==7.1.0
