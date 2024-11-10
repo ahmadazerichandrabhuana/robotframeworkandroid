@@ -42,7 +42,7 @@ udid: emulator-5554
 
 * Run specific test : 
    ```
-   robot tests/{test file name using extention ".robot"}
+   robot tests/{test file name using extension ".robot"}
    sample :
    robot tests/001.robot
    ```
