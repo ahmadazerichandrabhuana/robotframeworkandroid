@@ -12,7 +12,7 @@ This is a sample Test Automation for Android Apps using [Robot Framework](https:
    ```
    pip install -r requirements.txt
    ```
-6. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/).
+6. Install [JDK](https://www.oracle.com/java/technologies/downloads/).
 7. Install [Android Studio](https://developer.android.com/studio/install), and install Android SDK using Android Studio.
 8. Update JAVA_HOME and ANDROID_HOME to yout PATH file. There is no easy way to explain this. You can refer [here](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe) or Google it.
 9. Install [Node](https://nodejs.org/en/download/package-manager).
