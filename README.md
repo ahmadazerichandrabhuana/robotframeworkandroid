@@ -2,7 +2,7 @@
 
 This is a sample Test Automation for Android Apps using [Robot Framework](https://robotframework.org/) with Appium Library inside it.
 
-## Requirements
+## Requirements 
 
 1. Install [VS Code](https://code.visualstudio.com/) or any Code Editor you're comfort with.
 2. Install [python](https://www.python.org/), preferably version **3.9.10** (that's the one I used and having no issue).
